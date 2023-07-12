@@ -22,6 +22,11 @@ namespace RPSLS
         public void WelcomeMessage()
         {
             Console.WriteLine("Welcome to RPSLS! Here are the rules:\n");
+            Console.WriteLine("Rock crushes Scissors\nScissors cuts Paper \nPaper covers Rock\nRock crushes Lizard\nLizard poisons Spock\nSpock smashes Scissors\nScissors decapitates Lizard\nLizard eats Paper\nPaper disproves Spock\nSpock vaporizes Rock\n");
+            Console.WriteLine("How many Brave souls will tread this journey today?");
+            Console.ReadLine();
+            Console.WriteLine("Player One please enter your name: ");
+            Console.ReadLine();
         }
 
         public int ChooseNumberOfHumanPlayers()
